@@ -1,0 +1,17 @@
+.container {
+    display: flex;
+}
+
+.btn {
+    height: fit-content;
+    display: block;
+}
+
+@media only screen and (max-width: 720px) {
+    .container {
+        flex-direction: column;
+    }
+    .btn {
+        display: inline-block;
+    }
+}
